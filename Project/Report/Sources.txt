@@ -1,0 +1,19 @@
+Sources
+Background: https://wallpapersafari.com/pet-backgrounds-and-wallpaper/
+
+Image Prompts:
+https://deepai.org/machine-learning-model/text2img
+
+Logo: 'Create a commercial logo for a pet essentials store. The logo should use primarily orange. 
+    The logo should have the word "Lavin's" in it.'
+
+
+Product 1 - Dog Food: 'Create commerical photography image of a tin of dog food. The tin will be labelled "Lavin's Dog Food". The background will be white. There will be a picture of a dog on the tin.'
+Product 2 - Cat Food: 'Create commerical photography image of a tin of cat food. The tin will be labelled "Lavin's Cat Food". The background will be white. There will be a picture of a Cat on the tin.'
+Product 3 - Chew Toys: 'Create commercial photography image of a pet's chew toy. The background will be white.'
+Product 4 - Ball: 'Create commercial photography image of a pet's ball. The background will be white.'
+Product 5 - Dog Bed: 'Create commercial photography image of a dog bed. The background will be white.'
+Product 6 - Cat Bed: 'Create commercial photography image of a round cat bed. The background will be white.'
+Product 7: Litterbox: 'Create commercial photography image of a litterbox. The background will be white.'
+
+Image of Company Team - https://www.aiu.edu/blog/how-to-optimize-your-linkedin-effectively/
