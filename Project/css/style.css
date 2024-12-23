@@ -1,0 +1,246 @@
+html, body {
+  margin: 0;
+  padding-bottom: 2em;
+  font-size: 100%;
+}
+
+body {
+  margin: 2.25rem;
+  background-image: url("../images/petbackground.jpg");
+  background-repeat: repeat;
+  background-position: center top;
+  margin: 2.25rem;
+  padding-top: 10em;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar {
+  background-color: green;
+}
+
+.logo {
+  height: 4.5em;
+  width: 4.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  border-radius: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.875em 1em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.nav-item.active {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.checkout-button {
+  background-color: orange;
+  border-radius: 50% !important;
+  position: relative;
+}
+
+.checkout-button:hover {
+  background-color: rgb(162, 105, 0);
+  transition: background-color 0.3s ease;
+}
+
+img {
+  height: 20rem;
+  width: auto;
+}
+/*Styling for most areas of content */
+.contentbox {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+/*Styling for featured product on homepage*/
+.featuredproduct {
+  margin-top: 1rem;
+  padding: 20px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.btn.viewProduct {
+  padding: 0.8rem; 
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.btn.viewProduct:hover {
+  background-color: rgb(162, 105, 0);
+  transition: background-color 0.3s ease;
+}
+/*Styling for all products on display on store page*/
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  text-align: center;
+  align-items: center;
+  height: auto;
+  box-sizing: border-box;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+  height: auto;
+}
+
+.product img {
+  align-self: center;
+  border: 0.188rem solid black;
+  max-width: 100%;
+  margin-bottom: 0.625rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.product .description {
+  margin-top: 0.625rem;
+  font-size: 0.875rem;
+}
+
+
+.loadMore {
+  display: block;
+  margin: 1.25rem auto;
+  background-color: orange;
+  color: white;
+}
+
+.loadMore:hover {
+  background-color: rgb(162, 105, 0);
+  transition: background-color 0.3s ease;
+}
+/*Styling for window for login*/
+.loginMenu {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
+}
+
+/*Hamburger Icon shows on mobile screens*/
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #333;
+}
+
+#hamnav label {
+  display: inline-block;
+  color: white;
+  font-style: normal;
+  font-size: 1.2rem;
+  padding: 0.625rem;
+}
+
+#hamitems {
+  display: none;
+}
+
+#hamnav input:checked ~ #hamitems {
+  display: block;
+}
+
+input#hamburger {
+  display: none;
+}
+
+.col-md-6 {
+  margin-bottom: 2rem;
+}
+
+/*Media for larger screens*/
+@media screen and (min-width: 600px) {
+  body {
+    margin: 4rem;
+    padding-top: 5em;
+  }
+
+  .product img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .product-container {
+    justify-content: space-evenly;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    float: none;
+  }
+
+  li a {
+    padding: 1em 2em;
+  }
+
+  .checkout-button {
+    border-radius: 0;
+  }
+}

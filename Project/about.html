@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <title>Lavin's Pet Essentials</title>
+</head>
+<body>
+  <header>
+  <!--Navbar: Learned from previous classwork-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src ="images/logo.png" alt = "Lavin's Pet Essentials" class = "logo"></a>
+          
+          <div class="checkout-button">
+            <a href="checkout.html" class="btn rounded-circle d-flex justify-content-center align-items-center">
+                <i class="bi bi-cart"></i> <!-- Cart icon, sourced from: getbootstrap.com -->
+            </a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="account.html">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <br/><br/><br/>
+
+  <h1>About Us</h1>
+
+
+  <div class="container mt-5">
+    <div class="row">
+
+      <div class="col-lg-6 contentbox">
+        <h2>Who We Are</h2>
+        <hr>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+
+          <img class="img-fluid mx-auto d-block" src="images/Team/CompanyImage.jpg" alt="Image of Company Team">
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+        </p>
+      </div>
+
+
+      <div class="col-lg-6 contentbox">
+        <h2>What We Do</h2>
+        <hr>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br/><br/><br/>
+
+  <div class="container">
+    <div class="contentbox">
+      <h2>
+        Why Choose Us?
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+      </p>
+    </div>
+
+    <div class="contentbox">
+      <h2>
+        What Makes us Different?
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+      </p>
+    </div>
+  </div>
+
+  <br/><br/><br/>
+
+
+  <br/>
+
+  <div class="contentbox">
+    <center><h2>Meet the Team</h2></center>
+    <hr/>
+
+    <center><!-- Owner -->
+      <div class="product">
+        <img src="images/Team/Lavin.jpg" alt="Employee">
+        <h3>Alfred Lavin </br>(The Dog)</h3>
+        <p class="description">Owner of Lavin's Pet Essentials.</p>
+      </div></center>
+    
+    <div class="product-container" id="products">
+    
+      <!-- Employee 1 -->
+      <div class="product">
+        <img src="images/Team/Drake.png" alt="Employee">
+        <h3>Josh Drake</h3>
+        <p class="description">Investor</p>
+      </div>
+
+      <!-- Employee 2 -->
+      <div class="product">
+        <img src="images/Team/Yoshida.png" alt="Employee">
+        <h3>Naoki Yoshida</h3>
+        <p class="description">Director of Sales</p>
+      </div>
+      
+      <!-- Employee 3 -->
+      <div class="product">
+        <img src="images/Team/Starr.png" alt="Employee">
+        <h3>Ben Starr</h3>
+        <p class="description">Customer Support</p>
+      </div>
+    
+      <!-- Employee 4 -->
+      <div class="product">
+        <img src="images/Team/Soken.jpg" alt="Employee">
+        <h3>Masayoshi Soken</h3>
+        <p class="description">Composer of Jingle</p>
+      </div>
+
+      <!-- Employee 5 -->
+      <div class="product">
+        <img src="images/Team/Art.png" alt="Employee">
+        <h3>Artemis</h3>
+        <p class="description">Meeting Scheduler</p>
+      </div>
+      
+      <!-- Employee 6 -->
+      <div class="product">
+        <img src="images/Team/House.jpg" alt="Employee">
+        <h3>Gregory House</h3>
+        <p class="description">Vet</p>
+      </div>
+    
+      <!-- Employee 7 -->
+      <div class="product">
+        <img src="images/Team/Greg.png" alt="Employee">
+        <h3>Hans H. Greg</h3>
+        <p class="description">Director of Marketing</p>
+      </div>
+
+      <br/>
+
+  </div>
+  </div>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Lavin's Pet Essentials</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
