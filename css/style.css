@@ -25,7 +25,7 @@ header {
   text-align: center;
   z-index: 1000;
 }
-
+/*Styling for all navbar elements*/
 .navbar {
   background-color: green;
 }
@@ -68,7 +68,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+/*Styling for checkout button*/
 .checkout-button {
   background-color: orange;
   border-radius: 50% !important;
@@ -84,6 +84,7 @@ img {
   height: 20rem;
   width: auto;
 }
+
 /*Styling for most areas of content */
 .contentbox {
   background-color: white;
